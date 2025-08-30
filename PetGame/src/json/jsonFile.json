@@ -1,0 +1,148 @@
+{
+  "exitOrSaving": {
+    "saveStatus": "successfully saved",
+    "lastSaveTime": "CURRENT_TIMESTAMP",
+    "exitConfirmation": true,
+    "errorMessage": "Error: Something went wrong in saving, please try saving the game"
+  },
+
+
+  "gameSession": {
+    "actionHistory": [],
+    "availableActions": {
+
+      "play": {
+        "cooldown": 5
+      },
+      
+      "feed": {
+        "cooldown": 5
+      },
+
+      "goToSleep": {
+        "cooldown": 5
+      },
+
+      "takeToVet": {
+        "cooldown": 5
+      }
+
+    },
+
+
+    "inventory": [
+      {
+        "itemId": "FOOD1",
+        "itemName": "Apple",
+        "quantity": 1
+      },
+
+      {
+        "itemId": "FOOD2",
+        "itemName": "Carrot",
+        "quantity": 1
+      },
+
+      {
+        "itemId": "FOOD3",
+        "itemName": "Bone",
+        "quantity": 1
+      },
+
+      {
+        "itemId": "FOOD4",
+        "itemName": "Fish",
+        "quantity": 1
+      },
+
+      {
+        "itemId": "FOOD5",
+        "itemName": "Chicken",
+        "quantity": 1
+      },
+
+      {
+        "itemId": "FOOD6",
+        "itemName": "Steak",
+        "quantity": 1
+      },
+
+      {
+        "itemId": "TOY1",
+        "itemName": "Toy",
+        "quantity": 1
+      },
+
+      {
+        "itemId": "TOY2",
+        "itemName": "Teddy Bear",
+        "quantity": 1
+      },
+
+      {
+        "itemId": "TOY3",
+        "itemName": "Ball",
+        "quantity": 1
+      },
+
+      {
+        "itemId": "TOY4",
+        "itemName": "Frisbee",
+        "quantity": 1
+      }
+    ],
+
+
+    "play": {
+      "gameProgress": {
+        "totalPlayTime": 0
+      }
+    }
+  },
+
+
+  "parentalControls": {
+    "parentPassword": "2212",
+    "playTimeRestrictions": [
+      {
+        "day": "Monday",
+        "time": "12:00"
+      }
+    ],
+
+    "statistics": {
+      "totalPlayTime": 0,
+      "averagePlayTime": 0,
+      "resetPlayTime": 0
+    },
+
+    "actions": {
+      "petRevival": true
+    }
+  },
+
+
+  "initialStartProfiles": [
+    {
+      "progress": {
+        "tutorialStatus": "not started",
+        "currentScreen": "startingScreen.java"
+      }
+    }
+  ],
+
+  "pets": [
+    {
+      "petName": "Luka",
+      "petDescription": "This pet is very healthy and trained well"
+    },
+    {
+      "petName": "Anthony",
+      "petDescription": "This pet is young and healthy, despite injuries"
+    },
+    {
+      "petName": "Sam",
+      "petDescription": "This pet is very healthy, but is always tired"
+    }
+  ]
+}

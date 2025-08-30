@@ -1,0 +1,11 @@
+# Ignore Oracle JDK files
+*.class
+*.log
+*.iml
+*.swp
+.DS_Store
+.idea/
+.vscode/
+bin/
+out/
+Oracle_JDK-23/
