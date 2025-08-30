@@ -26,10 +26,10 @@ Users can interact with a virtual pet through feeding, playing, sleeping, and vi
 
 4. **Clone the repository:**
    ```bash
-   git clone https://gitlab.sci.uwo.ca/courses/2025/01/COMPSCI2212/group54.git
-   cd group54
+   git clone https://github.com/AryanBaria/Virtual-Pet-Game.git
+   cd Virtual-Pet-Game
    ```
-
+   
 5. **Open the folder** in **VS Code**
 
 6. Open `Main.java` and click **Run Java**
