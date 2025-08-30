@@ -1,7 +1,7 @@
-# 💙 CS2212 Pet Game
+# 💙 Virtual Pet Game
 
 ## 📝 Overview  
-**CS2212 Pet Game** is a Java-based virtual pet simulator created by **Aryan Baria, Dilraj Deogan, Maher Rammal, Mohammed Bayoumi, and Rayan Amir** for the course **CS2212B**.  
+**Virtual Pet Game** is a Java-based virtual pet simulator created by **Aryan Baria, Dilraj Deogan, Maher Rammal, Mohammed Bayoumi, and Rayan Amir** 
 Users can interact with a virtual pet through feeding, playing, sleeping, and visiting the vet. The game uses **Java Swing GUI**, includes a **save/load system**, **tutorial screens**, and **parental control features**.
 
 ---
@@ -140,15 +140,6 @@ javac -cp .:lib/junit-platform-console-standalone-1.10.0.jar -d bin test/*.java 
 java -jar lib/junit-platform-console-standalone-1.10.0.jar --class-path bin --scan-class-path
 
 If you're on Windows, replace : with ; in the -cp classpath:
-
----
-
-## 💡 Notes for the TA
-
-- Use **VS Code** to compile and run
-- Always run the game from `Main.java`
-- Save files are stored in root as `.txt`
-- All Java files use **Javadoc comments** per Week 8 guidelines
 
 ---
 
